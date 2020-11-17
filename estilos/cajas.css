@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: slategray;
+    font-size: 10px;
+    
+}
+#nuevo{
+    width: 90%;
+    height: 50px;
+    border: dashed white;
+    padding: 10px;
+    background-color: chartreuse;
+}
+#nuevo > div{
+    background-color: cornflowerblue;
+    width: 50%;
+}
+#span{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    font-size: 10em;
+    display: block;
+}
+
+#caja1{
+    background-color: snow;
+    font-size: 2em;
+    height: 300px;
+    padding: 10px;
+}
+#caja2{
+    background-color: tan;
+}
+div#caja1 > div.cajas > p{
+    font-size: 1em;
+    color: yellow;
+}
+.cajas{
+    background-color: violet;
+    width: 18%;
+    height: 200px;
+    /* border:2px solid #ffffff; */
+    float: left;
+    margin-left: 4%;
+    margin-top: 20px;
+    padding: 10px;
+}
