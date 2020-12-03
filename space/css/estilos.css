@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    overflow: hidden;
+    background-image: url(../img/fondo.jpg);
+    animation: animacion 60s infinite;
+}
+@keyframes animacion{
+    0%{
+        background-position: 30% 30%;
+    }
+    20%{
+        background-position: 15% 40%;
+    }
+    20%{
+        background-position: 10% 50%;
+    }
+    20%{
+        background-position: 2% 60%;
+    }
+    20%{
+        background-position: 1% 40%;
+    }
+    20%{
+        background-position: 15% 40%;
+    }
+
+    
+}
+#btn{
+    display: block;
+    position: fixed;
+    top: 49%;
+    left: calc(50% - 75px);
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border: 1px solid #1d1d1d;
+    text-decoration: none;
+    color: blanchedalmond;
+    text-align: center;
+    line-height: 3;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 2s ease-in all;
+}
+#btn:hover{
+    background-color: blanchedalmond;
+    border: 1px solid #cccccc;
+    color: black;
+    transform: scale(2);
+}
+#mercurio{
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: aniMer 30s infinite ease-out;
+
+}
+@keyframes aniMer{
+    from{
+        top: 500px;
+        left: 1000px;
+        transform: rotate(0deg);
+    }
+    to{
+        top: 200px;
+        left: 200px;
+        transform: rotate(360deg);
+
+    }
+}
