@@ -25,6 +25,7 @@ header{
     border-bottom: 1px solid #c1c1c1;
     width: 100%;
     background-color: whitesmoke;
+    top: 0px;
 }
 header > #logo{
     padding-top: 15px;
@@ -119,6 +120,7 @@ section#main .bola img{
 #news .columna3{
     float:left;
     width:25%;
+    height: 200px;
     margin-left:8%;
 }
 #news .columna3 a{
