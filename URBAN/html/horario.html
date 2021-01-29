@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario</title>
+    <link rel="stylesheet" href="../css/estilosh.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="logo">
+        <div class="col1">URBAN</div>
+        
+        <div class="col2">
+            <button style="-webkit-box-shadow: inset 8px 7px 4px -4px rgba(0, 0, 0, 0.44);
+            -moz-box-shadow: inset 8px 7px 4px -4px rgba(0, 0, 0, 0.44);
+            box-shadow: inset 8px 7px 4px -4px rgba(0, 0, 0, 0.44);">Buscar conductores</button></div>
+        <div class="col2"><button>Mis conductores</button></div>
+        <div class="col2"><button >Horario</button></div>
+    </div>
+    <div id="menu">
+        <a class="opciones"href="">Buscar conductores</a>
+        <a class="opciones"href="">Mis conductores</a>
+        <a class="opciones"href="">Horario</a>
+        <a class="opciones"href="">Usuario</a>
+    </div>
+    <div class="usuario">
+        <img class="imgyo"src="../img/yo.png" alt="">
+        <br>
+        <img id="editar"src="../img/edit.png" alt="">
+        <p class="texto">Angelica Salaices</p>
+        <p class="texto">ISC</p>
+        <p class="texto">(636)1008079</p>
+        <p class="texto">Pasajero</p>
+
+
+    </div>
+    <h1 class="titulos">Horario</h1>
+    <table class="tabla">
+        <tr>
+            <td><strong>Día</strong></td>
+            <td><strong>Entrada</strong></td>
+            <td><strong>Salida</strong></td>
+            
+        </tr>
+        <tr class="fila">
+            <td><strong>Lunes</strong></td>
+                <td>08:00 am</td>
+                <td>02:00 pm</td>
+                
+        </tr>
+        <tr class="fila">
+            <td><strong>Martes</strong></td>
+                <td>08:00 am</td>
+                <td>02:00 pm</td>
+                
+        </tr>
+        <tr class="fila">
+            <td><strong>Miércoles</strong></td>
+                <td>08:00 am</td>
+                <td>02:00 pm</td>
+                
+        </tr>
+        <tr class="fila">
+            <td><strong>Jueves</strong></td>
+                <td>08:00 am</td>
+                <td>02:00 pm</td>
+                
+        </tr>
+        <tr class="fila">
+            <td><strong>Viernes</strong></td>
+                <td>08:00 am</td>
+                <td>02:00 pm</td>
+                
+        </tr>
+        <tr class="fila">
+            <td><strong>Sábado</strong></td>
+                <td>-- -- --</td>
+                <td>-- -- --</td>
+                
+        </tr>
+        
+    </table>
+    <br>
+    <div class="texto1">Agregar actividad</div>
+    <table class="tabla">
+        <tr>
+            <td><strong>Nombre de la actividad</strong></td>
+          <td><input class="inp"type="text"></td>
+           </tr>
+           <tr>
+          <td><strong>Día</strong></td>
+          <td>
+            <select class="inp"type="text">
+            <option value="">Lunes</option>
+            <option value="">Martes</option>
+            <option value="">Miércoles</option>
+            <option value="">Jueves</option>
+            <option value="">Viérnes</option>
+            <option value="">Sábado</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Entrada</strong></td>
+          <td>
+              <select class="inp"type="text">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              </select>
+          </td>
+          <td>
+              <select class="inp">
+              <option value="">am</option>
+              <option value="">pm</option>
+              </select>
+           </td>
+        </tr>
+        <tr>
+          <td><strong >Salida</strong></td>
+          <td><select class="inp"type="text">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            </select>
+           </td>
+        <td><select class="inp">
+            <option value="">am</option>
+            <option value="">pm</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td>
+            <button class="button">Agregar</button>
+        </td>
+    </tr>
+        
+        
+       
+    </table>
+        
+        <table class="tablaH1">
+            <tr>
+              <td><strong>Día</strong></td>
+              <td><strong>Lunes</strong></td>
+              <td><strong>Martes</strong></td>
+              <td><strong>Miércoles</strong></td>
+              <td><strong>Jueves</strong></td>
+              <td><strong>Viernes</strong></td>
+              <td><strong>Sábado</strong></td>
+            </tr>
+            <tr>
+                    <td><strong>Entrada</strong></td>
+                    <td>08:00 am</td>
+                    <td>08:00 am</td>
+                    <td>08:00 am</td>
+                    <td>08:00 am</td>
+                    <td>08:00 am</td>
+                    <td>-- -- --</td>
+            </tr>
+            <tr>
+                <td><strong>Salida</strong></td>
+                <td>02:00 pm</td>
+                <td>02:00 pm</td>
+                <td>02:00 pm</td>
+                <td>02:00 pm</td>
+                <td>02:00 pm</td>
+                <td>-- -- --</td>
+            </tr>
+        </table>
+    
+    <div class="texto2">Agregar actividad</div>
+        <table class="tablaH2">
+            <tr>
+                <td><strong>Nombre de la actividad</strong></td>
+              <td><input class="inp"type="text"></td>
+              <td><strong>Día</strong></td>
+              <td><select class="inp"type="text">
+                <option value="">Lunes</option>
+                <option value="">Martes</option>
+                <option value="">Miércoles</option>
+                <option value="">Jueves</option>
+                <option value="">Viérnes</option>
+                <option value="">Sábado</option>
+                </select>
+              <td><strong>Entrada</strong></td>
+              <td><select class="inp"type="text">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  </select>
+              </td>
+              <td><select class="inp">
+                  <option value="">am</option>
+                  <option value="">pm</option>
+              </select></td>
+              <td><strong style="margin-left: 10px;">Salida</strong></td>
+              <td><select class="inp"type="text">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                </select>
+            </td>
+            <td><select class="inp">
+                <option value="">am</option>
+                <option value="">pm</option>
+            </select></td>
+            <td>
+                <button class="button">Agregar</button>
+            </td>
+            </tr>
+            
+           
+        </tr> 
+        </table>
+
+    
+</body>
+</html>

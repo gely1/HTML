@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#logo{
+    display: block;
+    height: 50px;
+    width: 100%;
+    font-size: 40px;
+    background-color: rgb(48, 80, 97);
+    color: whitesmoke;
+    font-weight: lighter;
+    padding-left: 20px;
+    -webkit-box-shadow: -8px 7px 13px 1px rgba(136,142,158,0.68);
+    -moz-box-shadow: -8px 7px 13px 1px rgba(136,142,158,0.68);
+    box-shadow: -8px 7px 13px 1px rgba(136,142,158,0.68);
+}
+
+.bien{
+    width: 30%;
+    height: 800px;
+    float: left;
+    background-color: rgb(234, 233, 242);
+    -webkit-box-shadow: inset -8px 7px 13px 1px rgba(136,142,158,0.68);
+    -moz-box-shadow: inset -8px 7px 13px 1px rgba(136,142,158,0.68);
+    box-shadow: inset -8px 7px 13px 1px rgba(136,142,158,0.68);
+}
+.bien > h2{
+margin-left: 20px;
+margin-top: 50px;
+font-weight: lighter;
+}
+@media screen and (min-width: 300px){
+    .bien{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 992px){
+    .bien{
+        width: 30%;
+    }
+}
+
+
+.iniciar fieldset{
+    border: none;
+}
+.inp{
+    margin-top: 30px;
+    margin-left: 20px;
+    display: block;
+    width: 80%;
+    border: 1px solid #eeeeee;
+    padding: 5px;
+    outline-color: #eeeeee;
+    height: 30px;
+    font-size: 1rem;
+    font-weight: lighter;
+    -webkit-box-shadow: inset 8px 7px 4px -4px rgba(143,143,143,0.44);
+    -moz-box-shadow: inset 8px 7px 4px -4px rgba(143,143,143,0.44);
+    box-shadow: inset 8px 7px 4px -4px rgba(143,143,143,0.44);
+    
+}
+.iniciar button{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    background-color: #0000004f;
+    color: whitesmoke;
+    border: none;
+    font-size: 1rem;
+    font-weight: lighter;
+    -webkit-box-shadow: 8px 7px 4px -4px rgba(143,143,143,0.4);
+    -moz-box-shadow: 8px 7px 4px -4px rgba(143,143,143,0.4);
+    box-shadow: 8px 7px 4px -4px rgba(143,143,143,0.4);
+}
+.cimg {
+    display: block;
+    width: 70%;
+    height: 800px;
+    margin: 0px;
+    overflow: hidden;
+    position:sticky;
+    float: left;
+}
+.cimg > .imgfondo {
+    
+    position:static;
+    margin: auto;
+    max-width: 100%;
+    max-height: 750px;
+    
+}
